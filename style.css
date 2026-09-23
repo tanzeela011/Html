@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+    color: blue;
+}
+#h1{
+    color: blueviolet;
+}
+#h2{
+    color: bisque;
+}
+#h3{
+    color: chartreuse;
+}
+div{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: double;
+}
+#aa{
+    background-color: bisque;
+    color: chartreuse;
+    text-decoration: dotted;
+}
+#bb{
+    background-color: chocolate;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+.div1{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: line-through;
+    
+}
+.heading{
+    color: red;
+    text-decoration: underline;
+    text-decoration-line: overline;
+    font-weight:bolder;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+button{
+    background-color: green;
+
+}
+.oo{
+    font-weight: bolder;
+    font-size: xx-large;
+    line-height: normal;
+}
+.qq{
+    font-family: cursive;
+    line-height: 3;
+    text-transform: lowercase;
+}
