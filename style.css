@@ -123,24 +123,10 @@ h1{
     
 
   } */
-   *{
+   /* *{
     margin: 0;
     padding: 0;
-   }
-  #Box1{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    display: inline-block;
-    border-radius: 50%;
-    text-align: center;
-    border: 2px solid brown;
-     padding: 40px;
-     margin: 10px;
-     
-
-  }
-   #Box2{
+/#Box2{
     height: 100px;
     width: 100px;
     background-color: rgb(255, 119, 0);
@@ -188,4 +174,61 @@ h1{
  padding: 40px; 
 margin: 10px;
 }
+   */
+/* 
+   div{
+   height: 300px;
+    width: 300px;
+    background-color: rgb(232, 227, 229);
+    display: inline-block;
+     border: 2px solid brown; 
+   }
+
+#Box1{
+    background-image: url("deer.jpg");
+    background-size: cover; */
   
+   
+/* body{ */
+      /* background-image: url("deer.jpg"); */
+    /* background-size: cover; */
+/*  */
+
+.navbar{
+  
+    background-color: rgb(104, 104, 147);
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+
+}
+li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: inline;
+    
+}
+a{
+    background-color: aqua;
+
+}
+#Box1{
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+}
+#bo{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+  
+}
+
+
+
+
