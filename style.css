@@ -1,0 +1,335 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Topbar */
+
+.topbar {
+    background-color: rgb(6, 7, 6);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#socialWhatsapp {
+    margin-right: 10px;
+}
+
+#socialFacebook {
+    margin-right: 10px;
+}
+
+#socialGithub {
+    margin-right: 10px;
+}
+
+#socialInstagram {
+    margin-right: 10px;
+}
+
+#socialTwitter {
+    margin-right: 10px;
+}
+
+#contactBar {
+    color: white;
+    font-size: 12px;
+}
+
+#phoneNumber {
+    margin-right: 20px;
+}
+
+#emailIcon {
+    margin-right: 5px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(225, 220, 223);
+}
+
+#brandIcon {
+    display: inline-block;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+#brandName {
+    display: inline-block;
+}
+
+#navHome {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+
+#navAbout {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+
+#navContact {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+
+#navInfo {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+
+/* Navbar Hover */
+
+#navHome:hover {
+    background-color: rgb(42, 130, 96);
+    padding: 16px;
+    color: white;
+}
+
+#navAbout:hover {
+    background-color: rgb(42, 130, 96);
+    padding: 16px;
+    color: white;
+}
+
+#navContact:hover {
+    background-color: rgb(42, 130, 96);
+    padding: 16px;
+    color: white;
+}
+
+#navInfo:hover {
+    background-color: rgb(42, 130, 96);
+    padding: 16px;
+    color: white;
+}
+
+
+/* Hero */
+
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img3.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#heroTitle {
+    padding-top: 500px;
+    padding-left: 150px;
+    color: rgb(52, 145, 108);
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#heroText {
+    color: white;
+    padding-left: 150px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+/* Services */
+
+.herosection {
+    background-color: rgb(245, 250, 248);
+    height: 510px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#servicesText {
+    padding-top: 20px;
+    width: 700px;
+    padding-left: 250px;
+    line-height: 1.5;
+}
+
+
+/* Service Card 1 */
+
+#serviceCard1 {
+    background-color: white;
+    height: 270px;
+    width: 290px;
+    margin-top: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 8px 5px 15px rgba(0, 128, 90, 0.253);
+}
+
+
+/* Service Card 2 */
+
+#serviceCard2 {
+    background-color: white;
+    height: 270px;
+    width: 290px;
+    margin-top: 70px;
+    margin-left: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 8px 5px 15px rgba(0, 128, 90, 0.253);
+}
+
+
+/* Service Card 3 */
+
+#serviceCard3 {
+    background-color: white;
+    height: 270px;
+    width: 290px;
+    margin-top: 70px;
+    margin-left: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 8px 5px 15px rgba(0, 128, 90, 0.253);
+}
+
+
+/* Service Text */
+
+.boxheading {
+    padding-top: 20px;
+    text-decoration: underline rgb(42, 130, 96);
+    text-underline-offset: 20px;
+}
+
+.boxpara {
+    padding-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Animation */
+
+#serviceCard1 {
+    animation-delay: 0s;
+}
+
+#serviceCard2 {
+    animation-delay: 0.3s;
+}
+
+#serviceCard3 {
+    animation-delay: 0.6s;
+}
+
+
+/* Last Section */
+
+.lastsection {
+    height: 630px;
+    background-color: rgb(42, 130, 96);
+    text-align: center;
+    padding-top: 60px;
+}
+
+#processText {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+
+.imgboxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#processCard1 {
+    height: 300px;
+    width: 350px;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: start;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 8px 5px 15px rgba(0, 128, 90, 0.253);
+}
+
+#processCard2 {
+    height: 300px;
+    width: 350px;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: start;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 8px 5px 15px rgba(0, 128, 90, 0.253);
+}
+
+#processCard3 {
+    height: 300px;
+    width: 350px;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: start;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 8px 5px 15px rgba(0, 128, 90, 0.253);
+}
+
+#processTitle1 {
+    padding-top: 0px;
+    color: white;
+}
+
+#processTitle2 {
+    padding-top: 0px;
+    color: white;
+}
+
+#processTitle3 {
+    padding-top: 0px;
+    color: white;
+}
+
+#processDesc1 {
+    padding-top: 30px;
+    color: white;
+}
+
+#processDesc2 {
+    padding-top: 30px;
+    color: white;
+}
+
+#processDesc3 {
+    padding-top: 30px;
+    color: white;
+}
